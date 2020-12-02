@@ -10,4 +10,13 @@ CREATE TABLE `contact` (
   `address` varchar(45) NOT NULL,
   `telephone` varchar(45) NOT NULL,
   PRIMARY KEY (`contact_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8
+) ENGINE=InnoDB;
+insert into `contact` (`contact_id`, `name`, `email`, `address`, `telephone`) values('1','test1','test1@gmail.com','test1','111-111-1111');
+insert into `contact` (`contact_id`, `name`, `email`, `address`, `telephone`) values('2','test2','test2@gmail.com','test2','222-222-2222');
+insert into `contact` (`contact_id`, `name`, `email`, `address`, `telephone`) values('3','test3','test3@gmail.com','test3','333-333-3333');
+insert into `contact` (`contact_id`, `name`, `email`, `address`, `telephone`) values('4','test4','test4@gmail.com','test4','444-444-4444');
+insert into `contact` (`contact_id`, `name`, `email`, `address`, `telephone`) values('5','test5','test5@gmail.com','test5','555-999-9999');
+insert into `contact` (`contact_id`, `name`, `email`, `address`, `telephone`) values('6','test6','test6@gmail.com','test6','666-999-9999');
+insert into `contact` (`contact_id`, `name`, `email`, `address`, `telephone`) values('7','test7','test7@gmail.com','test7','777-999-9999');
+insert into `contact` (`contact_id`, `name`, `email`, `address`, `telephone`) values('8','test8','test8@gmail.com','test8','888-999-9999');
+insert into `contact` (`contact_id`, `name`, `email`, `address`, `telephone`) values('9','test9','test10@gmail.com','test9','999-999-9999');
