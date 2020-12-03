@@ -21,4 +21,4 @@ echo "Starting latest Application Container (app)! "
 docker run  -p 7080:8080 --link appdb --restart unless-stopped --name app  -d lgumldocker/app:latest
 sleep 10s
 echo "http://localhost:7080/SpringMvcJdbcTemplate/"
-start chrome "http://localhost:7080/SpringMvcJdbcTemplate/" 
+sh "start chrome 'http://localhost:7080/SpringMvcJdbcTemplate/'" 
